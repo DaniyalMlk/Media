@@ -1,0 +1,350 @@
+/* /////////////////////////////////////////////////// HH1 /////////////////////////////////////////////////////////////////////////// */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+header {
+    font-family: 'Kanit', sans-serif;
+    padding: 24px 160px;
+    margin-bottom: 70px;
+}
+
+.site-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 70px 0; 
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120px;
+    text-align: left;
+    color: #000000;
+    margin: 0;
+}
+
+/* /////////////////////////////////////////////////// Main /////////////////////////////////////////////////////////////////////////// */
+main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 160px;
+    gap: 45px;
+}
+
+/* /////////////////////////////////////////////////// Articles /////////////////////////////////////////////////////////////////////////// */
+.news-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 36px 0;
+    margin-bottom: 45px;
+    border-bottom: 1px solid #00000033;
+}
+
+.info-top {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.gray-text {
+    color: #888888;
+}
+
+.author-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.text-content {
+    max-width: 693px;
+    color: #000000;
+    margin-top: 16px; 
+}
+
+.article-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0 0 30px 0;
+}
+
+.article-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 12px; 
+    margin: 0;
+}
+
+.article-image {
+    width: 265px;
+    height: 265px; 
+    border-radius: 4px;
+    align-self: flex-end; 
+    position: relative; 
+    top: -30px; 
+}
+
+.info-bottom {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    opacity: 0.6;
+    position: relative; 
+}
+
+
+.tag-button {
+    padding: 6px 16px;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.1); 
+    color: #000000; 
+    border: none;
+    cursor: pointer;
+}
+
+.gray-squares {
+    display: flex;
+    gap: 6px; 
+    position: absolute; 
+    bottom: 0; 
+    margin-right: 370px;
+    right: 0;
+}
+
+.gray-square {
+    width: 24px; 
+    height: 24px; 
+    background-color: #00000033;
+}
+
+/* /////////////////////////////////////////////////// Footer /////////////////////////////////////////////////////////////////////////// */
+footer {
+    padding: 20px 160px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #081E34;
+}
+
+.footer-credits, .footer-love {
+    margin: 0;
+}
+
+/* ///////////////////////////////////////////////////////// Button ///////////////////////////////////////////////////////////////////// */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.back-button img {
+    width: 24px;
+    height: 24px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.site-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #000000;
+    margin: 20px;
+}
+
+.container {
+    max-width: 1250px;
+    height: auto;
+    margin: 20px auto;
+    background: #fff;
+    padding: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.author-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-info {
+    flex: 1;
+    margin-left:10px;
+    margin-top: 15px;
+}
+
+.author-name {
+    font-size: 18px;
+    margin: 0;
+    color: #000000;
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 34px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.meta {
+    color: #000000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.image img {
+    width: 100%;
+    height: 380px; 
+    object-fit: cover;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.subheader-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.subheader {
+    align-self: flex-start; 
+    margin-bottom: 10px;
+}
+
+.text {
+    align-self: flex-start; 
+}
+
+.content p {
+    margin: 10px 0;
+}
+
+.back-button img {
+    width: 24px;
+    height: 24px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.article-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 18px; 
+}
+
+.left-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.left-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.left-icons span {
+    font-size: 16px;
+    color: #000000;
+}
+
+.right-icons {  
+    display: flex;
+    align-items: center;
+}
+
+.right-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Footer Line and Credits */
+.footer-line {
+    border-top: 1px solid #000000;
+    margin: 20px 0;
+}
+
+.credits {
+    text-align: right;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 630px;
+    padding: 1 160px; 
+}
+
+.credits a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.credits a:hover {
+    text-decoration: underline;
+}
